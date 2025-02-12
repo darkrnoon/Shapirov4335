@@ -7,8 +7,8 @@
         mc:Ignorable="d"
         Title="Window1" Height="450" Width="800">
     <Grid>
-        <Button Content="Ну давай нажми" HorizontalAlignment="Left" Margin="338,259,0,0" VerticalAlignment="Top" Height="52" Width="164"/>
-        <Label Content="Тут будет текст" HorizontalAlignment="Left" Margin="318,153,0,0" VerticalAlignment="Top" Height="64" Width="204"/>
+        <Button Content="Ну давай нажми" HorizontalAlignment="Left" Margin="338,259,0,0" VerticalAlignment="Top" Height="52" Width="164" Click="Button_Click"/>
+        <Label x:Name="Result" Content="Тут будет текст" HorizontalAlignment="Left" Margin="318,153,0,0" VerticalAlignment="Top" Height="64" Width="204"/>
 
     </Grid>
 </Window>
